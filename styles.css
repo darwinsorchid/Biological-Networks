@@ -1,0 +1,36 @@
+
+.title {
+    text-align: center; /* Align title text */
+    color: #ebf5f0 !important; /* Title text color */
+}
+
+.subtitle {
+    text-align: center; /* Align subtitle text */
+    color: #ebf5f0 !important; /* Subtitle text color */
+}
+
+
+body {
+    text-align: justify; /* Justify all text */
+}
+                                                          
+.code-tools-button {  
+    background-color: #6fbeb1;  /* Code-tools button background color */  
+    color: #ffffff; /* Code-tools button text color */   
+}
+
+.dropdown-menu {
+    background-color: #6fbeb1;     /* Background color for code-tools dropdown menu */  
+    border: 1px solid #ccc;        /* Border for the dropdown */  
+}
+
+.dropdown-item:hover {  
+    background-color: #174e50;     /* Background for code-tool dropdown items on hover */  
+    color: #faf9f9;                   /* Text color when hovered */  
+}  
+
+
+
+
+
+
