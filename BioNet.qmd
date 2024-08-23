@@ -383,7 +383,7 @@ ggraph(tbl_subgraph1, layout = "fr") +
   geom_edge_link(alpha = 0.8, color = "darkgrey") + 
   geom_node_point(aes(size = V(tbl_subgraph1)$Degree), shape = 21, border="black",
                   fill="#174e50", stroke = 0.1) +
-  geom_node_text(aes(label=name), vjust = 1.5, hjust = 1, size = 2.5) +
+  geom_node_text(aes(label=name), vjust = 1.5, hjust = 1, size = 2.3) +
   theme_void() +
   labs(title = "APC Community") +
   theme(plot.title = element_text(hjust = 0.5),
@@ -410,7 +410,7 @@ ggraph(tbl_APC, layout = "fr") +
   geom_edge_link(alpha = 0.8, color = "darkgrey") + 
   geom_node_point(aes(size = 4), shape = 21, border="black",
                   fill="#174e50", stroke = 0.1) +
-  geom_node_text(aes(label=name), vjust = 1.5, hjust = 1, size = 2.5) +
+  geom_node_text(aes(label=name), vjust = 2, hjust = 0.5, size = 2.3) +
   theme_void() +
   labs(title = "APC Neighbors") +
   theme(plot.title = element_text(hjust = 0.5),
@@ -444,7 +444,7 @@ ggraph(tbl_subgraph2, layout = "fr") +
   geom_edge_link(alpha = 0.8, color = "darkgrey") + 
   geom_node_point(aes(size = V(tbl_subgraph2)$Degree), shape = 21, border="black",
                   fill="#174e50", stroke = 0.1) +
-  geom_node_text(aes(label=name), vjust = 1.5, hjust = 1, size = 2.5) +
+  geom_node_text(aes(label=name), vjust = 1.8, hjust = 0.5, size = 2.3) +
   theme_void() +
   labs(title = "ATF7IP Community") +
   theme(plot.title = element_text(hjust = 0.5),
@@ -471,7 +471,7 @@ ggraph(tbl_ATF, layout = "fr") +
   geom_edge_link(alpha = 0.8, color = "darkgrey") + 
   geom_node_point(aes(size = 4), shape = 21, border="black",
                   fill="#174e50", stroke = 0.1) +
-  geom_node_text(aes(label=name), vjust = 1.5, hjust = 1, size = 2.5) +
+  geom_node_text(aes(label=name), vjust = 1.8, hjust = 0.5, size = 2.3) +
   theme_void() +
   labs(title = "ATF7IP Neighbors") +
   theme(plot.title = element_text(hjust = 0.5),
