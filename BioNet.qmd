@@ -15,11 +15,12 @@ number-sections: true
 
 format:
   html:
+    code-fold: true
+    code-tools:
+      source: https://github.com/darwinsorchid/Biological-Networks
     theme: minty
     css: styles.css
     html-math-method: katex
-    code-fold: true
-    code-tools: true
 
 editor: visual
 bibliography: references.bib
