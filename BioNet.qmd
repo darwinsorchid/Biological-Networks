@@ -15,13 +15,14 @@ number-sections: true
 
 format:
   html:
+    embed-resources: true
     code-fold: true
     code-tools:
       source: https://github.com/darwinsorchid/Biological-Networks
     theme: minty
     css: styles.css
     html-math-method: katex
-
+  
 editor: visual
 bibliography: references.bib
 ---
