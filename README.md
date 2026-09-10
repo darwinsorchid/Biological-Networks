@@ -9,6 +9,11 @@ The respective report is available in HTML format, part of which was customized 
 ![Quarto](https://img.shields.io/badge/Quarto-39729E?logo=quarto&logoColor=white)
 ![ggplot2](https://img.shields.io/badge/ggplot2-447099?logo=ggplot2&logoColor=white)
 
+## Overview
+
+<img width="2522" height="986" alt="image" src="https://github.com/user-attachments/assets/fcd11da6-759c-4c8e-9fb6-9487978eca49" />
+
+
 ## Report Contents
 * Introduction
 * Results
